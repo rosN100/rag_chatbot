@@ -23,7 +23,7 @@ Instructions:
 3. If you truly don't know, suggest related topics the user might want to explore instead
 4. Always be encouraging and solution-oriented
 
-Answer: """
+Answer: Let me help you with that. """
         
         prompt = PromptTemplate(
             template=template,
@@ -40,5 +40,6 @@ Answer: """
                     template="{page_content}\n"
                 )
             },
-            return_source_documents=True
+            return_source_documents=True,
+            verbose=True
         )

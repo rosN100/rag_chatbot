@@ -46,22 +46,13 @@ class YesItWorksApp:
             st.session_state.qa_chain = None
 
     def initialize_llm(self, temperature: float = 0.7, max_length: int = 512) -> HuggingFaceHub:
-        """Initialize the language model with configurable parameters.
-        
-        Args:
-            temperature: Controls randomness in responses (0.0 to 1.0)
-            max_length: Maximum length of generated responses
-        
-        Returns:
-            HuggingFaceHub LLM instance
-        """
+        """Initialize the language model with custom parameters."""
         token = st.session_state.get('huggingface_token')
         if not token:
             st.error('Please enter your Hugging Face API token in the sidebar')
             st.stop()
-            
         return HuggingFaceHub(
-            repo_id="google/flan-t5-base",
+            repo_id="google/flan-t5-xl",
             model_kwargs={
                 "temperature": temperature,
                 "max_length": max_length,
