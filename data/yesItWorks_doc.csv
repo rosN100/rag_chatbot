@@ -1,0 +1,39 @@
+Title,Content,Category,Keywords,Link
+Creating a New Page,To create a new page, click the "+" icon in the sidebar or use the "/page" command within an existing page. You can then choose a template or start with a blank page.,Page Management,new page,create page,blank page,templates
+Formatting Text,You can format text using Markdown syntax (e.g., *bold*, _italic_, `code`) or by using the formatting toolbar that appears when you highlight text. Available options include bold, italics, underline, strikethrough, code, color, and highlighting.,Text Editing,formatting,bold,italic,underline,strikethrough,code,color,highlight
+Using Bulleted Lists,To create a bulleted list, type "*" followed by a space, or use the bullet list option in the formatting toolbar. Indent lists by pressing Tab.,Text Editing,bulleted list,lists,bullets,indent
+Using Numbered Lists,To create a numbered list, type "1." followed by a space, or use the numbered list option in the formatting toolbar. Indent lists by pressing Tab.,Text Editing,numbered list,lists,numbers,indent
+Creating Headings,You can create headings using Markdown syntax (e.g., "# Heading 1", "## Heading 2") or by selecting a heading style from the formatting toolbar. There are six levels of headings.,Text Editing,headings,h1,h2,h3,h4,h5,h6
+Inserting Images,You can insert images by dragging and dropping them onto the page, pasting an image URL, or uploading a file using the "/image" command.,Media,images,insert image,upload image,image URL
+Embedding Videos,You can embed videos from platforms like YouTube and Vimeo by pasting the video URL into the page. The tool will automatically create an embed.,Media,videos,embed video,youtube,vimeo
+Creating Tables,To create a table, use the "/table" command or click the "+" icon and select "Table." You can then define the number of rows and columns.,Database,tables,create table,add table,rows,columns
+Adding Database Properties,Databases allow you to add properties like Text, Number, Select, Multi-select, Date, Person, Files & media, Checkbox, URL, Email, Phone, Formula, Relation, Rollup, and Created time.,Database,database properties,properties,text,number,select,multi-select,date
+Filtering Database Views,You can filter database views to show only items that meet specific criteria. Click the "Filter" button and define your conditions.,Database,database views,filter,filtering,conditions
+Sorting Database Views,You can sort database views based on the values of different properties. Click the "Sort" button and choose the property and order.,Database,database views,sort,sorting,order
+Creating Relations Between Databases,Relations allow you to connect items in one database to items in another database. Use the "Relation" property to set this up.,Database,database relations,relations,connect databases,linked databases
+Using Formulas in Databases,Formulas allow you to perform calculations and manipulate data within database properties. Use the "Formula" property and write expressions using the available functions.,Database,database formulas,formulas,calculations,expressions
+Sharing Pages with Others,You can share pages with specific people or make them public. Click the "Share" button in the top right corner and adjust the permissions.,Collaboration,sharing,share page,permissions,public page
+Collaborating in Real-time,Multiple people can edit a page simultaneously. You'll see their cursors and changes in real-time.,Collaboration,real-time collaboration,collaborate,multi-user editing
+Adding Comments,You can add comments to specific blocks of content by hovering over the block and clicking the comment icon, or by using the "/comment" command.,Collaboration,comments,add comment,leave feedback
+Using @ Mentions,You can mention other users within a page by typing "@" followed by their name. This will notify them.,Collaboration,@mention,mention user,notifications
+Integrating with Slack,You can integrate the tool with Slack to receive notifications about page changes and share pages directly to Slack channels.,Integrations,slack,slack integration,notifications
+Integrating with Google Drive,You can embed Google Docs, Sheets, and Slides directly into your pages using the "/google drive" command.,Integrations,google drive,embed google docs,embed google sheets,embed google slides
+Using Page History,You can view the history of changes made to a page and revert to previous versions by clicking the "Page history" option in the page menu.,Page Management,page history,version history,revert changes
+Working Offline,The tool allows you to work on pages even when you're offline. Changes will be synced when you reconnect to the internet.,General,offline access,work offline,sync changes
+Using Search,You can search across all your pages and databases using the search bar in the top left corner.,General,search,find information,global search
+Customizing Notifications,You can customize the types of notifications you receive and how you receive them in your settings.,General,notifications,customize notifications,settings
+Using Templates,The tool offers a variety of pre-built templates for different use cases like project management, meeting notes, and personal organization. You can access them when creating a new page.,Page Management,templates,pre-built templates,use templates
+Creating Sub-pages,You can create sub-pages within a page to organize information hierarchically. Simply create a new page within an existing one.,Page Management,sub-pages,nested pages,hierarchy
+Using Backlinks,When another page links to the current page, a backlink is created. You can see these backlinks at the bottom of the page.,Page Management,backlinks,linked from,referencing pages
+Exporting Pages,You can export pages in various formats like PDF, Markdown, and HTML.,Page Management,export,export to pdf,export to markdown,export to html
+Duplicating Pages,You can duplicate a page to quickly create a copy of its content and structure.,Page Management,duplicate page,copy page
+Deleting Pages,You can delete pages by moving them to the "Trash" in the sidebar. Deleted pages can be restored for a limited time.,Page Management,delete page,trash,restore page
+Managing Workspaces,Workspaces are shared environments where teams can collaborate. You can create and manage workspaces in your account settings.,Collaboration,workspaces,team collaboration,shared workspace
+Inviting Members to a Workspace,You can invite new members to your workspace by entering their email addresses in the workspace settings.,Collaboration,invite members,add users,workspace members
+Understanding Permissions,Permissions control who can view and edit pages within a workspace. You can set different permission levels for members and guests.,Collaboration,permissions,access control,view permissions,edit permissions
+Using Keyboard Shortcuts,The tool offers various keyboard shortcuts to speed up your workflow. You can find a list of shortcuts in the help documentation.,General,keyboard shortcuts,shortcuts,productivity tips
+Customizing Page Layout,You can customize the layout of your pages by adjusting the width and arranging blocks in columns.,Page Management,page layout,customize layout,columns,full width
+Using Code Blocks,You can display code snippets using code blocks. Use the backticks (`) or the "/code" command.,Text Editing,code block,display code,code snippets
+Creating Callout Blocks,Callout blocks are used to highlight important information or provide context. Use the "/callout" command.,Text Editing,callout,highlight information,context block
+Using Divider Blocks,Divider blocks are used to visually separate sections of content. Use the "/divider" command.,Text Editing,divider,separator,visual break
+Creating Toggle Lists,Toggle lists allow you to hide and reveal content. Use the "/toggle list" command.,Text Editing,toggle list,expandable list,hide content
