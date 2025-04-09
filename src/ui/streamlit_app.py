@@ -52,7 +52,7 @@ class YesItWorksApp:
             st.error('Please enter your Hugging Face API token in the sidebar')
             st.stop()
         return HuggingFaceHub(
-            repo_id="google/flan-t5-xl",
+            repo_id="google/flan-t5-small",
             model_kwargs={
                 "temperature": temperature,
                 "max_length": max_length,
