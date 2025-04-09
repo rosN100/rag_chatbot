@@ -118,10 +118,10 @@ class YesItWorksApp:
         # Update session state if values changed
         if temperature != st.session_state.get("temperature"):
             st.session_state.temperature = temperature
-            st.experimental_rerun()
+            st.rerun()
         if max_length != st.session_state.get("max_length"):
             st.session_state.max_length = max_length
-            st.experimental_rerun()
+            st.rerun()
 
     def display_example_questions(self):
         """Display example questions in the sidebar."""
@@ -232,7 +232,7 @@ class YesItWorksApp:
             for q in example_questions:
                 if st.button(q, key=q):
                     st.session_state.question = q
-                    st.experimental_rerun()
+                    st.rerun()
             
             st.markdown("### 🎯 Key Topics")
             topics = [
